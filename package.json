@@ -1,0 +1,23 @@
+{
+  "name": "Homework07_ReadMeGenerator",
+  "version": "1.0.0",
+  "description": "A node application to generate professional README files for projects you build.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PAW6063/Homework07_ReadMeGenerator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PAW6063/Homework07_ReadMeGenerator/issues"
+  },
+  "homepage": "https://github.com/PAW6063/Homework07_ReadMeGenerator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  }
+}
