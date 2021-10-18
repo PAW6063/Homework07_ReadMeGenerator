@@ -26,6 +26,7 @@ To use this program run the command #node index.js#, then answer the promted que
 
 ## Tests
 Self tested
+![Video](https://github.com/PAW6063/Homework07_ReadMeGenerator/blob/90c6eeb63ea3236c017478a3857b2b58b8921752/assets/videos/generate_README_Video.mp4)
 
 ## Credits
 PAW6063
