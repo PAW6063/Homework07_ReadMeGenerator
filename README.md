@@ -19,8 +19,9 @@ Clone the GitHub repository then enter the command #npm init# followed by #npm i
 To use this program run the command #node index.js#, then answer the promted questions.
 
 ## Features
-- JavaScript
 - Node
+- JavaScript
+- Programming
 
 
 ## Tests
