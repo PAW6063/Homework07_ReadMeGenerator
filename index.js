@@ -27,7 +27,7 @@ const questions = [
     {
         name: 'features',
         type: 'input',
-        message: 'Enter features in your project: ',
+        message: 'Enter features in your project seperated by a "/" no space " " (Node/JavaScript): ',
     },
     {
         name: 'test',

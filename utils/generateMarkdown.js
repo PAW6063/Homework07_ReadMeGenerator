@@ -7,7 +7,7 @@ function renderLicenseBadge(license) {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  console.log(license);
+  
   switch(license){
     case 'Apache License 2.0':
       return 'https://choosealicense.com/licenses/apache-2.0/';
@@ -27,46 +27,55 @@ function renderLicenseLink(license) {
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-  console.log(`[![license](${renderLicenseBadge(license)})](${renderLicenseLink(license)})`);
   return `${renderLicenseBadge(license)}(${renderLicenseLink(license)})`;
+}
+
+function renderFeatureSection(features) {
+  let createStr = '';
+  
+  features.split('/').forEach((element) => {
+    createStr += `- ${element}\n`;
+  });
+
+  return createStr;
 }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
-  
-  ## Description
-  ${data.description}
 
-  ## Table of Contents
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Features](#features)
-  - [Test](#tests)
-  - [Credits](#credits)
-  - [License](#license)
-  - [How to Contribute](#how_to_contribute)
+## Description
+${data.description}
 
-  ## Installation
-  ${data.install}
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
+- [Test](#tests)
+- [Credits](#credits)
+- [License](#license)
+- [How to Contribute](#how_to_contribute)
 
-  ## Usage
-  ${data.usage}
+## Installation
+${data.install}
 
-  ## Features
-  ${data.features}
-  
-  ## Tests
-  ${data.test}
+## Usage
+${data.usage}
 
-  ## Credits
-  ${data.credits}
+## Features
+${renderFeatureSection(data.features)}
 
-  ## License
-  ${renderLicenseSection(data.license[0])}
+## Tests
+${data.test}
 
-  ## How to Contribute
-  ${data.contributions}`;
+## Credits
+${data.credits}
+
+## License
+${renderLicenseSection(data.license[0])}
+
+## How to Contribute
+${data.contributions}`;
 }
 
 module.exports = generateMarkdown;

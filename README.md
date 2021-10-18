@@ -1,34 +1,36 @@
-# xzdftjn
-  
-  ## Description
-  zdtjgn
+# Homework07_README_Generator
 
-  ## Table of Contents
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Features](#features)
-  - [Test](#tests)
-  - [Credits](#credits)
-  - [License](#license)
-  - [How to Contribute](#how_to_contribute)
+## Description
+This application generates README.md files for the user to save time on markdown formate.
 
-  ## Installation
-  zdtgjmn
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
+- [Test](#tests)
+- [Credits](#credits)
+- [License](#license)
+- [How to Contribute](#how_to_contribute)
 
-  ## Usage
-  zxfdtgjnm
+## Installation
+Clone the GitHub repository then enter the command #npm init# followed by #npm i#.
 
-  ## Features
-  zxfdtgjn
-  
-  ## Tests
-  zdtjn
+## Usage
+To use this program run the command #node index.js#, then answer the promted questions.
 
-  ## Credits
-  zdertjhn
+## Features
+- JavaScript
+- Node
 
-  ## License
-  [![license](https://img.shields.io/badge/license-MIT%20License-brightgreen)](https://choosealicense.com/licenses/mit/)
 
-  ## How to Contribute
-  zdetjhn
+## Tests
+Self tested
+
+## Credits
+PAW6063
+
+## License
+[![license](https://img.shields.io/badge/license-MIT%20License-brightgreen)](https://choosealicense.com/licenses/mit/)
+
+## How to Contribute
+Future Update
