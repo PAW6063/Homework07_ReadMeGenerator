@@ -29,6 +29,7 @@ To use this program run the command #node index.js#, then answer the promted que
 
 ## Tests
 Self tested
+![Video](./assets/videos/generate_README_Video.mp4)
 
 ## Credits
 PAW6063
