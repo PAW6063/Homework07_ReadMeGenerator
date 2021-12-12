@@ -1,4 +1,4 @@
-# Homework07_README_Generator
+# README_Generator
 
 ## Links
 https://drive.google.com/file/d/17hTThUtsHrmVF34vZ-U2rnB7BYSCxAb-/view?usp=sharing
